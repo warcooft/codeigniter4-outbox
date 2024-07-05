@@ -11,7 +11,7 @@ class OutboxPublish extends BaseCommand
 {
     protected $group       = 'Outbox';
     protected $name        = 'outbox:publish';
-    protected $description = 'Publish Oubox config file into the current application.';
+    protected $description = 'Publish Outbox config file into the current application.';
 
     public function run(array $params): void
     {
