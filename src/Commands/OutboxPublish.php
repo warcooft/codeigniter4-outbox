@@ -37,6 +37,6 @@ class OutboxPublish extends BaseCommand
             file_put_contents($file, $contents);
         }
 
-        CLI::write(CLI::color('  Published! ', 'green') . 'You can customize the configuration by editing the "app/Config/Oubox.php" file.');
+        CLI::write(CLI::color('  Published! ', 'green') . 'You can customize the configuration by editing the "app/Config/Outbox.php" file.');
     }
 }
